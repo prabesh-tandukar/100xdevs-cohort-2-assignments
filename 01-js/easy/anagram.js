@@ -14,7 +14,7 @@ function isAnagram(str1, str2) {
         // console.log(str1[i], str2[j]);
         if (str1[i] == str2[j]) {
           // similarityCount++;
-          word += str2[j];
+          word += str1[i];
         }
       }
     }
